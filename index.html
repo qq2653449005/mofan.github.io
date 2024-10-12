@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>模范炮兵连</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        video {
+            width: 100%;
+            max-width: 800px; /* 限制视频的最大宽度 */
+            height: auto;
+            margin-top: 20px; /* 添加顶部边距以在视频上方留出空间 */
+        }
+        .text-content {
+            margin-top: 20px;
+            text-indent: 2em; /* 首行缩进两个字符 */
+        }
+        @media (min-width: 600px) {
+            .container {
+                max-width: 600px;
+                margin: auto;
+            }
+            video {
+                max-width: 100%; /* 在较大屏幕上，视频宽度应占满容器 */
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>模范炮兵连</h1>
+    <video controls>
+        <source src="./shipin/模范.mp4" type="video/mp4">
+        您的浏览器不支持视频标签。
+    </video>
+    <div class="text-content">
+        <p>晋冀鲁豫军区第4纵队11旅山炮大队2连，前身于1945年10月组建，1947年4月4日，2连奉命参加奔袭侯马的任务，于当日18时从冀城东下平地区出发，向侯马疾进。由于要求远距离快速奔袭，骡马炮兵面临重重困难与考验，但他们不畏艰难险阻，密切配合，仅4小时就前进30余公里抵达侯马近郊，并占领阵地。5日16时，攻城开始后，2连第一发炮弹就将国民党守军碉堡打掉，使步兵顺利占领侯马。随后该连未及休整，立即挥师东进，投入攻打曲沃的战斗，采取“杨有才炮”打左、“马锡观炮”打右的方法，以猛烈火力向敌袭击，各发射3发炮弹就将城门和城门楼两侧的敌碉堡摧毁，使步兵顺利登上城墙，为步兵开辟了通路。经过激战，全歼守敌2000余人，并活捉伪专员。1947年12月，晋冀鲁豫军区第4纵队授予该连“模范炮兵连”荣誉称号。</p>
+        <p>该部现为陆军边防第317旅边防1营2连。</p>
+    </div>
+</div>
+</body>
+</html>
